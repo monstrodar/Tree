@@ -17,7 +17,7 @@ public class Merge
   //alterado essa linha
     public Merge()
     {
-        vet = new int[120];//100
+        vet = new int[100];//100
         tl=0;
         ini = fim = null;
         arq = new Arquivo_Java("C:\\Users\\Daniel\\Desktop\\arq.dat");
@@ -37,7 +37,7 @@ public class Merge
 
     public void exibeVetor()
     {
-        System.out.println("Conteudo do vetor");
+        System.out.println("Conteudo do vetor: ");
         for (int i=0; i<tl; i++)
         {
             System.out.println(vet[i]);
