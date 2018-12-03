@@ -14,10 +14,10 @@ public class Merge
     private int tl;
     private No ini, fim;
     private Arquivo_Java arq;
-
+  //alterado essa linha
     public Merge()
     {
-        vet = new int[100];
+        vet = new int[120];//100
         tl=0;
         ini = fim = null;
         arq = new Arquivo_Java("C:\\Users\\Daniel\\Desktop\\arq.dat");
